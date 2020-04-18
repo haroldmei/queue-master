@@ -20,7 +20,7 @@ public class DockerSpawner {
 	private DockerClient dc;
 	private ExecutorService dockerPool;
 
-	private String imageName = "weaveworksdemos/worker";
+	private String imageName = "haroldmei/worker";
 	private String imageVersion = "latest";
 	private String networkId = "weavedemo_backoffice";
 	private int poolSize = 50;
